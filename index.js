@@ -115,7 +115,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Espera ai abestado ⌛,
+				wait: '⌛ Espera ai abestado ⌛',
 				success: '✔️ Pronto jubileu ✔️',
 				error: {
 					stick: '❌ Falha, ocorreu um erro ao converter a imagem em adesivo ❌',
