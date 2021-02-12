@@ -317,12 +317,12 @@ async function starts() {
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
-				case '(;Dono)':
+				case '(.Dono)':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSNOpYkw6neqjYwoIwxzEI71K1RMF9iyIt6A&usqp=CAU`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ℕ𝕠𝕞𝕖: シ︎𝔼𝕣𝕖𝕟シ\nℕ𝕦𝕞𝕖𝕣𝕠: wa.me/+5516999916885\n𝕐𝕠𝕦𝕥𝕦𝕓𝕖: Breno Rodrigo︎'})
 					break
-                    case ';oi':
+                    case '.oi':
 		            if (args.length < 1) return reply ('Ola baiano')
 		            break
 				/*case 'memeindo':
